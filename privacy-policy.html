@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>환율 변환기 개인정보 처리방침 / Privacy Policy</title>
+<style>
+  :root {
+    --bg: #fafaf7;
+    --surface: #ffffff;
+    --text: #1a1a1a;
+    --text-soft: #555;
+    --text-mute: #888;
+    --accent: #b88a00;
+    --line: #e8e6e0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.01em;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 60px 24px 80px;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    color: var(--text-soft);
+    margin-bottom: 24px;
+    font-weight: 500;
+  }
+  .badge::before {
+    content: "💱";
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 0 8px;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+  }
+  .subtitle {
+    font-size: 15px;
+    color: var(--text-soft);
+    margin-bottom: 40px;
+  }
+  .updated {
+    font-size: 12px;
+    color: var(--text-mute);
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--line);
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 0 14px;
+    letter-spacing: -0.02em;
+    color: var(--text);
+  }
+  p { margin: 0 0 14px; color: var(--text-soft); }
+  strong { color: var(--text); font-weight: 600; }
+  ul {
+    margin: 0 0 14px;
+    padding-left: 22px;
+    color: var(--text-soft);
+  }
+  li { margin-bottom: 6px; }
+  code {
+    background: rgba(0,0,0,0.05);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+  }
+  .callout {
+    background: var(--surface);
+    border-left: 3px solid var(--accent);
+    padding: 16px 18px;
+    margin: 20px 0;
+    border-radius: 0 8px 8px 0;
+    font-size: 14px;
+    color: var(--text);
+  }
+  .callout strong { color: var(--accent); }
+  .divider {
+    height: 1px;
+    background: var(--line);
+    margin: 60px 0 40px;
+  }
+  .lang-switch {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 13px;
+    color: var(--text-mute);
+  }
+  .lang-switch a {
+    color: var(--accent);
+    text-decoration: none;
+    margin: 0 6px;
+    font-weight: 500;
+  }
+  .lang-switch a:hover { text-decoration: underline; }
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-mute);
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+  }
+  @media (max-width: 480px) {
+    .wrap { padding: 40px 20px 60px; }
+    h1 { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ============ 한국어 ============ -->
+  <section id="ko">
+    <div class="badge">환율 변환기 · KRW Converter</div>
+    <h1>개인정보 처리방침</h1>
+    <p class="subtitle">크롬 확장 프로그램 "환율 변환기 (KRW Converter)"의 개인정보 처리 방침입니다.</p>
+    <div class="updated">최종 업데이트: 2025년</div>
+
+    <div class="callout">
+      <strong>요약:</strong> 이 확장 프로그램은 어떠한 개인정보도 수집·저장·전송하지 않습니다.
+      사용자가 드래그한 텍스트는 외부로 전송되지 않으며, 환율 정보를 조회하기 위해 통화 코드(예: "USD")만 환율 API에 전송합니다.
+    </div>
+
+    <h2>1. 수집하는 정보</h2>
+    <p>본 확장 프로그램은 사용자로부터 다음과 같은 정보를 <strong>수집하지 않습니다</strong>:</p>
+    <ul>
+      <li>이름, 이메일, 주소 등 개인 식별 정보</li>
+      <li>브라우징 기록 또는 방문 기록</li>
+      <li>웹페이지 내용 또는 사용자가 드래그한 텍스트</li>
+      <li>위치 정보, IP 주소, 기기 정보</li>
+      <li>쿠키 또는 추적 정보</li>
+    </ul>
+
+    <h2>2. 외부 통신</h2>
+    <p>본 확장 프로그램은 환율 정보를 가져오기 위해 다음 외부 서비스와 통신합니다:</p>
+    <ul>
+      <li><strong>open.er-api.com</strong> — 무료 환율 API. 통화 코드만 요청에 포함되며, 사용자가 드래그한 텍스트나 식별 정보는 전송되지 않습니다.</li>
+    </ul>
+    <p>환율 데이터는 사용자 기기의 <code>chrome.storage.local</code>에 1시간 동안 캐시되며, 캐시 만료 시 자동으로 새로 가져옵니다.</p>
+
+    <h2>3. 권한 사용 이유</h2>
+    <ul>
+      <li><code>storage</code> — 환율 데이터를 로컬에 캐싱하여 빠른 변환을 제공하기 위함</li>
+      <li><code>host_permissions: open.er-api.com</code> — 환율 정보 조회</li>
+      <li><code>모든 사이트의 콘텐츠 스크립트</code> — 사용자가 드래그한 텍스트에서 가격을 감지하기 위함. 텍스트는 페이지를 떠나지 않습니다.</li>
+    </ul>
+
+    <h2>4. 데이터 판매 및 공유</h2>
+    <p>본 확장 프로그램은 데이터를 수집하지 않으므로, <strong>어떤 데이터도 판매하거나 제3자와 공유하지 않습니다</strong>.</p>
+
+    <h2>5. 변경 사항</h2>
+    <p>본 방침이 변경될 경우 이 페이지에서 업데이트하며, 새 버전 배포 시 사용자에게 안내합니다.</p>
+
+    <h2>6. 문의</h2>
+    <p>본 정책 관련 문의는 [여기에 이메일 주소를 추가하세요]로 연락 주시기 바랍니다.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ============ English ============ -->
+  <section id="en">
+    <div class="badge">KRW Converter · 환율 변환기</div>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Privacy policy for the Chrome extension "KRW Converter (환율 변환기)".</p>
+    <div class="updated">Last updated: 2025</div>
+
+    <div class="callout">
+      <strong>TL;DR:</strong> This extension collects no personal data.
+      Text you select stays on your device. Only the currency code (e.g. "USD") is sent to the exchange rate API — never the selected text, your browsing history, or any identifying information.
+    </div>
+
+    <h2>1. Information We Collect</h2>
+    <p>This extension does <strong>not</strong> collect any of the following:</p>
+    <ul>
+      <li>Personal identifiers (name, email, address)</li>
+      <li>Browsing history or visited URLs</li>
+      <li>Web page content or text selected by the user</li>
+      <li>Location data, IP address, or device information</li>
+      <li>Cookies or tracking data</li>
+    </ul>
+
+    <h2>2. External Communication</h2>
+    <p>The extension communicates with one external service to fetch exchange rates:</p>
+    <ul>
+      <li><strong>open.er-api.com</strong> — a free exchange rate API. Only currency codes are included in requests. Your selected text and any identifying information are never transmitted.</li>
+    </ul>
+    <p>Exchange rate data is cached locally on your device via <code>chrome.storage.local</code> for one hour and automatically refreshed when expired.</p>
+
+    <h2>3. Permission Justification</h2>
+    <ul>
+      <li><code>storage</code> — to cache exchange rate data locally for faster conversions.</li>
+      <li><code>host_permissions: open.er-api.com</code> — to fetch live exchange rates.</li>
+      <li><code>Content scripts on all sites</code> — to detect prices in the text you select. The text never leaves the page.</li>
+    </ul>
+
+    <h2>4. Data Sale and Sharing</h2>
+    <p>Because the extension collects no data, <strong>nothing is sold or shared with third parties</strong>.</p>
+
+    <h2>5. Changes</h2>
+    <p>If this policy changes, we will update this page and notify users via release notes when a new extension version is published.</p>
+
+    <h2>6. Contact</h2>
+    <p>For questions about this policy, contact [add your email address here].</p>
+  </section>
+
+  <div class="lang-switch">
+    <a href="#ko">한국어</a> · <a href="#en">English</a>
+  </div>
+
+  <footer>
+    환율 변환기 (KRW Converter) — Open exchange rates by ExchangeRate-API
+  </footer>
+
+</div>
+</body>
+</html>
